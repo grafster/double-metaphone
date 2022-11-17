@@ -1,4 +1,4 @@
-#include <vector>
+ï»¿#include <vector>
 #include <string>
 #include <string.h>
 #include <stdio.h>
@@ -164,7 +164,7 @@ void DoubleMetaphone(const string &str, vector<string> *codes)
         current += 1;
       break;
 
-    case 'Ç':
+    case 'Ã‡':
       primary += "S";
       secondary += "S";
       current += 1;
@@ -628,7 +628,7 @@ void DoubleMetaphone(const string &str, vector<string> *codes)
       secondary += "N";
       break;
 
-    case 'Ñ':
+    case 'Ã‘':
       current += 1;
       primary += "N";
       secondary += "N";
