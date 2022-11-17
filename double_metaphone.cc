@@ -1,13 +1,12 @@
-﻿#include <vector>
-#include <string>
-#include <string.h>
-#include <stdio.h>
+﻿#include <stdio.h>
 #include <ctype.h>
 #include <stdlib.h>
 #include <string.h>
 #include <stdarg.h>
 #include <assert.h>
 #include "double_metaphone.h"
+
+using namespace std;
 
 const unsigned int max_length = 32;
 
